@@ -8,7 +8,7 @@
     </div>
     <div id="info-container">
       <h1 id="title">{{ page.title }}</h1>
-      <span id="date">{{ page.date | date_to_string }}</span>
+      <span id="date">{% include date.html date=page.date %}</span>
     </div>
   </div>
 
@@ -17,7 +17,7 @@
   </div>
   <div class="colophon">
     <p>
-      <span id="pub-date">Опубликовано {{ page.date | date_to_string }}</span> <span class="separator">&bull;</span>
+      <span id="pub-date">Опубликовано {% include date.html date=page.date %}</span> <span class="separator">&bull;</span>
     </p>
   </div>
 </div>

@@ -31,7 +31,7 @@
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
+                  <span class="post-date">{% include date.html date=page.date %}</span>
                   {{ post.title }}
                 </a>
               </li>
