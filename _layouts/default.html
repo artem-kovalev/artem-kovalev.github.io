@@ -31,7 +31,7 @@
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{% include date.html date=page.date %}</span>
+                  <span class="post-date">{% include date.html date=post.date %}</span>
                   {{ post.title }}
                 </a>
               </li>
@@ -40,7 +40,7 @@
         </div>
         <div class="footer">
           <span id="footer-links">
-            <a href="/about" class="footer-link">О чем</a> <span class="separator">&bull;</span>
+            <a href="/posts/2018/11/19/about.html" class="footer-link">О чем</a> <span class="separator">&bull;</span>
             <!-- <a href="" class="footer-link">Twitter</a> <span class="separator">&bull;</span> -->
             <!-- <a href="" class="footer-link">GitHub</a> -->
           </span>
