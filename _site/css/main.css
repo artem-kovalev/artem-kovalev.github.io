@@ -9,7 +9,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   -webkit-font-smoothing: antialiased;
@@ -169,7 +170,7 @@ a:hover {
 /* standard */
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: none;
   padding: 0 .4em;
 }
 
@@ -180,14 +181,15 @@ a:hover {
   text-align: justify;
 }
 
-.post ul, .post ol {
+.post ul,
+.post ol {
   margin-left: 2.35em;
   margin-bottom: 1.25em;
 }
 
 .post code {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: none;
   padding: 0 .2em;
 }
 
